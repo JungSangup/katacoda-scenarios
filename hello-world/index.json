@@ -4,11 +4,6 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "assets": {
-        "test": {
-            "file": "nginx-pod.yamlh", "target": "/root/", "": ""
-        }
-    },
     "steps": [{
       "title": "Step 1 - Run Command",
       "text": "step1.md"
