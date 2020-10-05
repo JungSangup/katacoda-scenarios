@@ -1,8 +1,8 @@
 {
-  "title": "Docker Basics",
-  "description": "Docker 기초실습",
+  "title": "Docker overview",
+  "description": "Docker overview",
   "difficulty": "beginner",
-  "time": "30 minutes",
+  "time": "2 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
