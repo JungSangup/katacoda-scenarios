@@ -11,4 +11,4 @@
 
 `docker images`{{execute}}
 
-'docker-101' 이 보이면 성공입니다.
+`docker-101` 이 보이면 성공입니다.
