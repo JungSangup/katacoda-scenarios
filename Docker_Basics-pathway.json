@@ -4,20 +4,10 @@
   "icon": "",
   "courses": 
   [
-    {
-      "course_id": "Course 1",
-      "title": "Container",
-      "description": "Container"
-    },
-    {
-      "course_id": "Course 2",
-      "title": "Docker overview",
-      "description": "Docker 기초"
-    },
-    {
-      "course_id": "Course 3",
-      "title": "Docker images",
-      "description": "Docker images"
+	{
+      "course_id": "intro",
+      "title": "Intro",
+      "description": "Docker 맛보기"
     }
   ]
 }
