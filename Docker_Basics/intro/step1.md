@@ -1,8 +1,6 @@
 
 
-## 샘플 애플리케이션(ToDo List) 준비
-
-이번 강의에서 사용할 샘플 애플리케이션인 ToDo List  Manager 입니다.
+이번 강의에서 사용할 샘플 애플리케이션인 **ToDo List  Manager** 입니다.
 
 할 일 목록(Item)을  등록하고 관리할 수 있는 간단한 Node.js 애플리케이션입니다.
 
