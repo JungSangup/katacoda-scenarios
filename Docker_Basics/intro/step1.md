@@ -1,6 +1,6 @@
 This is your first step.
 
-## 샘플 애플리케이션(ToDo List App.)을 도커로 실행해보기
+## 샘플 애플리케이션(ToDo List App.) 소스코드 준비
 
 이번 강의에서 사용할 샘플 애플리케이션인 ToDo List App. 입니다.
 
@@ -25,6 +25,10 @@ This is your first step.
 파일(`app.zip`)이 준비되었으면, 압축을 풀고 디렉토리를 이동합니다.
 
 `unzip app.zip`{{execute}}
+
+`ls -al`{{execute}}
+
+<img src="D:\Workspace\Github\katacoda-scenarios\Docker_Basics\intro\assets\app.jpg" style="zoom: 80%;" />
 
 `cd app`{{execute}}
 
