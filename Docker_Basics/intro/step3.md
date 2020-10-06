@@ -6,8 +6,8 @@ This is your first step.
 
 
 
-`docker build -t docker-101 .`{{execute}}
+`docker run -dp 3000:3000 docker-101`{{execute}}
 
 
 
-`docker images`{{execute}}
+`docker ps -a`{{execute}}
