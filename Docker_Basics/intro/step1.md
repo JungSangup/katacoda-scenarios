@@ -1,6 +1,6 @@
 
 
-## 샘플 애플리케이션(ToDo List) 소스코드 준비
+## 샘플 애플리케이션(ToDo List) 준비
 
 이번 강의에서 사용할 샘플 애플리케이션인 ToDo List  입니다.
 
@@ -12,19 +12,19 @@
 
 
 
-먼저 필요한 소스코드를 준비합니다.
-
-
-
-Github에서 소스코드를 다운로드 합니다.
+먼저 필요한 소스코드를 Github에서 다운로드 합니다.
 
 `git clone https://github.com/JungSangup/todo_manager.git app`{{execute}}
 
 
 
->  혹시 문제가 있으면, `/root/app.zip`을 사용하세요.
+>  잘 안되나요?
 >
-> `unzip app.zip`{{execute}}
+>  걱정마세요~ 혹시 문제가 있으면, `/root/app.zip`을 사용하시면 됩니다.
+>
+>  미리 준비해뒀으니 압축만 풀어주세요.
+>
+>  `unzip app.zip`{{execute}}
 
 
 

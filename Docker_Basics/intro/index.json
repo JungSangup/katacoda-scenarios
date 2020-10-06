@@ -26,7 +26,7 @@
       "text": "finish.md"
     },
 	"assets": {
-        "app.zip": [
+        "host01": [
             {"file": "app.zip", "target": "~/"}
         ]
     }
