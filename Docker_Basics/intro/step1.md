@@ -8,7 +8,7 @@ This is your first step.
 
 
 
-<img src=".\assets\todo-list-sample.png" alt="ToDo List App." style="zoom:50%;" />
+<img src=".\assets\todo-list-sample.jpg" alt="ToDo List App." style="zoom:50%;" />
 
 
 
