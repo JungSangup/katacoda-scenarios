@@ -26,11 +26,11 @@
 
 
 
-이제 Katacoda의 `Display 3000` 탭을 눌러보세요.
+이제 `Terminal`의 `Display 3000` 탭을 눌러보세요.
 
 
 
-ToDo List 애플리케이션이 잘 동작하나요?
+여러분의 ToDo List Manager 애플리케이션이 잘 동작하나요?
 
 
 
