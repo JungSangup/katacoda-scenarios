@@ -32,4 +32,4 @@ This is your first step.
 
 어떤 파일들이 있는지 보려면 아래 명령어를 실행해보세요.
 
-'ls -al'{{execute}}
+`ls -al`{{execute}}
