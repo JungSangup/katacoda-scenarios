@@ -16,19 +16,20 @@ This is your first step.
 
 필요한 파일은 `app.zip` 입니다.
 
+
 혹시 파일이 없으면, 다운로드 받으셔도 됩니다.
 
 `wget https://github.com/JungSangup/katacoda-scenarios/tree/master/Docker_Basics/intro/assets/app.zip`{{execute}}
-
 
 
 파일(`app.zip`)이 준비되었으면, 압축을 풀고 디렉토리를 이동합니다.
 
 `unzip app.zip`{{execute}}
 
-`ls -al`{{execute}}
-
-<img src="D:\Workspace\Github\katacoda-scenarios\Docker_Basics\intro\assets\app.jpg" style="zoom: 80%;" />
 
 `cd app`{{execute}}
 
+
+어떤 파일들이 있는지 보려면 아래 명령어를 실행해보세요.
+
+'ls -al'{{execute}}
