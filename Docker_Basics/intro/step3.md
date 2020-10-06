@@ -1,13 +1,17 @@
-This is your first step.
 
 ## 컨테이너 실행하기
 
 샘플 애플리케이션 컨테이너를 실행해 보겠습니다.
 
 
+앞에서는 컨테이너 이미지를 만들었습니다.
+이번에는 이 이미지를 실제 컨테이너로 실행(run)해 보겠습니다.
 
 `docker run -dp 3000:3000 docker-101`{{execute}}
 
 
+잘 실행되고 있는지 볼까요?
 
 `docker ps -a`{{execute}}
+
+`docker-101` 이 보이면 정상입니다.
