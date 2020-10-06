@@ -1,13 +1,42 @@
 {
-  "title": "Docker Basics",
-  "description": "Docker 기초실습",
-  "icon": "",
-  "courses": 
-  [
-	{
-      "course_id": "intro",
-      "title": "Intro",
-      "description": "Docker 맛보기"
+  "title": "Intro",
+  "description": "Docker 맛보기",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+		{
+		  "title": "Step 1 - 샘플 애플리케이션 준비",
+		  "text": "step1.md"
+		},
+		{
+		  "title": "Step 2 - 도커 이미지 만들기",
+		  "text": "step2.md"
+		},
+		{
+		  "title": "Step 2 - 컨테이너 실행",
+		  "text": "step3.md"
+		}
+	],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+	"assets": {
+        "app.zip": [
+            {"file": "app.zip", "target": "~/"}
+        ]
     }
-  ]
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
+	"dashboards": [{"name": "Display 3000", "port": 3000}]
+  },
+  "backend": {
+    "imageid": "ubuntu:1804"
+  }
 }
