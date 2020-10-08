@@ -2,13 +2,13 @@
 
 컨테이너의 격리 개념을 이해하기 위해서 chroot를 이용한 격리를 실습해 보도록 하겠습니다.
 
-  
-
 먼저 `chroot`가 어떤 명령어인지 알아볼까요?
 
 `chroot --help`{{execute}}
 
-  
+root 디렉토리를 새로운 경로(NEWROOT)로 지정하는거라고 하네요.
+
+​     
 
 그럼, 이제 실제로 `chroot`명령어를 실행해 보겠습니다.
 
@@ -40,6 +40,8 @@
 
 `tree ./new_root`{{execute}}
 
+bin 디렉토리에 bash 파일이 보이네요.
+
   
 
 이제 다시한번 `chroot`를 실행해볼까요?
@@ -62,7 +64,7 @@
 
 `mkdir -p ./new_root/lib/x86_64-linux-gnu/ ./new_root/lib64`{{execute}}
 
-`cp /lib/x86_64-linux-gnu/libtinfo.so.5 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
+`cp /lib/x86_64-linux-gnu/libtinfo.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
 `cp /lib/x86_64-linux-gnu/libdl.so.2 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
 `cp /lib/x86_64-linux-gnu/libc.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
 `cp /lib64/ld-linux-x86-64.so.2 ./new_root/lib64`{{execute}}
