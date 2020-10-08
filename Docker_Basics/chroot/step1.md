@@ -94,7 +94,7 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 ꒰( ˵¯͒ꇴ¯͒˵ )꒱ 드디어 성공입니다.
 
-locale관련 warning이 있긴 하지만, 성공적으로 root를 변경했습니다.
+
 
 `pwd`{{execute}} 도 해보시구요, `/bin/bash --version`{{execute}} 도 해보세요.
 
