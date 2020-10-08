@@ -13,6 +13,11 @@
       "course_id": "chroot",
       "title": "chroot 실습",
       "description": "chroot 명령어 활용 실습"
+    },
+	{
+      "course_id": "image_layer",
+      "title": "Image layer 실습",
+      "description": "컨테이너 이미지와 Layer에 대한 실습"
     }
   ]
 }

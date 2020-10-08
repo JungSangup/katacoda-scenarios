@@ -102,5 +102,7 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 `pwd`{{execute}} 도 해보시구요, `/bin/bash --version`{{execute}} 도 해보세요.
 
+`ls -al`
+
 
 
