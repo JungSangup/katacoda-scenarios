@@ -78,3 +78,26 @@ nginx 이미지를 하나 pull 하구요.
 
 실행되는 컨테이너에서 발생하는 모든 변경사항은 바로 여기 기록되게 됩니다.
 
+​     
+
+그럼, 하나를 더 실행하면 어떻게 될까요?
+
+`docker run --detach --label "color=blue" nginx`{{execute}}
+
+이번엔 blue로 label을 달아뒀습니다.
+
+​     
+
+overlay디렉토리에는 R/W Layer만 추가된 걸 확인할 수 있습니다.
+
+`ls -al /var/lib/docker/overlay`{{execute}}
+
+​     
+
+같은 이미지로 여러개의 컨테이너를 실행해도, R/O Layer는 공유하고 R/W Layer만 추가해서 만들어지네요.
+
+​     
+
+다음 실습을 위해서 blue는 삭제할게요.
+
+`docker rm -f $(docker ps --filter "label=color=blue" -q)`{{execute}}
