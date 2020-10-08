@@ -8,6 +8,11 @@
       "course_id": "intro",
       "title": "Intro",
       "description": "Docker 맛보기"
+    },
+	{
+      "course_id": "chroot",
+      "title": "chroot 실습",
+      "description": "chroot 명령어 활용 실습"
     }
   ]
 }
