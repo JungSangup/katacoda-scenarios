@@ -16,7 +16,7 @@
 
 이제 우리 도커가 어떤 스토리지 드라이버를 사용하는지 알아보겠습니다.
 
-`docker rmi -f $(docker images -aq)`{{execute}}
+`docker info | grep -i storage`{{execute}}
 
 드라이버에 따라서 이미지가 저장되는 장소가 달라집니다.
 
@@ -28,7 +28,7 @@
 
 깨끗하게 정리된 상태에서 시작해볼게요.
 
-ubuntu 이미지를 하나 pull 하구요.
+nginx 이미지를 하나 pull 하구요.
 
 `docker pull nginx`{{execute}}
 
@@ -71,6 +71,8 @@ ubuntu 이미지를 하나 pull 하구요.
 `ls -al /var/lib/docker/overlay`{{execute}}
 
 두 개의 디렉토리가 더 생긴걸 볼 수 있습니다.
+
+​      
 
 이게 우리가 배운 R/W Layer인 Container layer입니다.
 

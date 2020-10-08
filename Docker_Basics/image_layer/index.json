@@ -6,12 +6,12 @@
   "details": {
     "steps": [
 		{
-		  "title": "이미지 pull",
+		  "title": "이미지 pull(docker pull)",
 		  "text": "step1.md"
 		},
 		{
-		  "title": "새로운 이미지 생성",
-		  "text": "step1.md"
+		  "title": "새로운 이미지 생성(docker commit)",
+		  "text": "step2.md"
 		}
 	],
     "intro": {
