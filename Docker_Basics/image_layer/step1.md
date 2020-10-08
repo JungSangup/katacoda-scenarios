@@ -88,7 +88,13 @@ nginx 이미지를 하나 pull 하구요.
 
 ​     
 
-overlay디렉토리에는 R/W Layer만 추가된 걸 확인할 수 있습니다.
+컨테이너를 확인해볼까요?
+
+`docker ps`{{execute}}
+
+​     
+
+그리고, overlay디렉토리에는 R/W Layer만 추가된 걸 확인할 수 있습니다.
 
 `ls -al /var/lib/docker/overlay`{{execute}}
 
