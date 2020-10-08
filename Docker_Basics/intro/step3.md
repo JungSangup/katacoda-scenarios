@@ -2,9 +2,13 @@
 
 
 
+
+
 앞에서는 컨테이너 이미지를 만들었습니다.
 
 이번에는 이 이미지를 실제 컨테이너로 실행(run)해 보겠습니다.
+
+
 
 
 
@@ -13,13 +17,21 @@
 
 
 
+
+
 잘 실행되고 있는지 볼까요?
 
-`docker ps -a`{{execute}}
+`docker ps`{{execute}}
 
 
 
-`docker-101` 이 보이면 정상입니다.    (ง˙∇˙)ว    
+
+
+아래 그림처럼 `docker-101` 이 보이면 정상입니다. 
+
+![docker_ps](D:\Workspace\Github\katacoda-scenarios\Docker_Basics\intro\assets\docker_ps.png)
+
+
 
 
 
@@ -27,8 +39,14 @@
 
 
 
+
+
 여러분의 ToDo List Manager 애플리케이션이 잘 동작하나요?
 
 
 
-축하합니다!!! 
+
+
+축하합니다!!!     (ง˙∇˙)ว 
+
+여러분은 방금 10분만에 뚝딱 시스템 구축을 마쳤습니다.
