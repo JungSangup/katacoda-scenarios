@@ -6,7 +6,7 @@
   "details": {
     "steps": [
 		{
-		  "title": "Step 1 - 샘플 애플리케이션 준비하기",
+		  "title": "chroot 실습",
 		  "text": "step1.md"
 		}
 	],

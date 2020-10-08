@@ -75,7 +75,13 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 `tree ./new_root`{{execute}}
 
+​     
 
+locale때문에 아래 명령어도 한번 실행해주세요.
+
+`export LC_ALL=C.UTF-8`{{execute}}
+
+​     
 
 다시 `chroot`를 해봅니다.
 
