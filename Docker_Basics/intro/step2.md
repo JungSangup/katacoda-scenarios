@@ -8,7 +8,7 @@
 
 ​     
 
-아래 명령어는 이미지를 만드는 명령어 입니다.
+아래 명령어는 이미지를 만드는(build) 명령어 입니다.
 
 `docker build -t docker-101 .`{{execute}}
 
@@ -20,8 +20,9 @@
 
 ​     
 
-
 이제 잘 만들어졌는지 볼까요?
+
+현재 있는 이미지를 조회하는 명령어입니다.
 
 `docker images`{{execute}}
 
@@ -31,5 +32,6 @@
 
 ​     
 
-![docker_images](D:\Workspace\Github\katacoda-scenarios\Docker_Basics\intro\assets\docker_images.png)
+![docker_images](./assets/docker_images.png)
+
 
