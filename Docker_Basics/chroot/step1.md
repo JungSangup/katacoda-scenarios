@@ -62,10 +62,14 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 그리고, 복사를 해줍니다.
 
-`mkdir -p ./new_root/lib/x86_64-linux-gnu/ ./new_root/lib64`{{execute}}  
-`cp /lib/x86_64-linux-gnu/libtinfo.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}  
-`cp /lib/x86_64-linux-gnu/libdl.so.2 ./new_root/lib/x86_64-linux-gnu/`{{execute}}  
-`cp /lib/x86_64-linux-gnu/libc.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}  
+`mkdir -p ./new_root/lib/x86_64-linux-gnu/ ./new_root/lib64`{{execute}}
+
+`cp /lib/x86_64-linux-gnu/libtinfo.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
+
+`cp /lib/x86_64-linux-gnu/libdl.so.2 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
+
+`cp /lib/x86_64-linux-gnu/libc.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
+
 `cp /lib64/ld-linux-x86-64.so.2 ./new_root/lib64`{{execute}}  
 
   
@@ -76,12 +80,6 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 ​     
 
-locale때문에 아래 명령어도 한번 실행해주세요.
-
-`export LC_ALL=C.UTF-8`{{execute}}
-
-​     
-
 다시 `chroot`를 해봅니다.
 
 `chroot ./new_root /bin/bash`{{execute}}
@@ -89,6 +87,8 @@ locale때문에 아래 명령어도 한번 실행해주세요.
 
 
 ꒰( ˵¯͒ꇴ¯͒˵ )꒱ 드디어 성공입니다.
+
+locale관련 warning이 있긴 하지만, 성공적으로 root를 변경했습니다.
 
 `pwd`{{execute}} 도 해보시구요, `/bin/bash --version`{{execute}} 도 해보세요.
 
