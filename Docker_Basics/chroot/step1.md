@@ -80,6 +80,12 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 ​     
 
+그리고, locale관련 처리를 하지않으면 warning이 발행하니, 아래 명령어도 한번 실행해주세요.
+
+`export LC_ALL=`{{execute}}
+
+​     
+
 다시 `chroot`를 해봅니다.
 
 `chroot ./new_root /bin/bash`{{execute}}
