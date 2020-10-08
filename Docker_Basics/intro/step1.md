@@ -14,9 +14,7 @@
 
 `git clone https://github.com/JungSangup/todo_list_manager.git app`{{execute}}
 
-
-
-
+  
 
 >  혹시 잘 안되시나요?
 >
@@ -26,17 +24,13 @@
 >
 >  `unzip app.zip`{{execute}}
 
-
-
-
+  
 
 소스코드 준비가 됐으면 app 디렉토리로 이동합니다.
 
 `cd app`{{execute}}
 
-
-
-
+  
 
 어떤 파일들이 있는지 보려면
 
