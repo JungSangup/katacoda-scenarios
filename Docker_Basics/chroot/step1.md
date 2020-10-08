@@ -20,13 +20,13 @@ root 디렉토리를 새로운 경로(NEWROOT)로 지정하는거라고 하네�
 
 `chroot ./new_root /bin/bash`{{execute}}
 
-  
+​     
 
 아마, 오류가 발생할거예요.
 
 `/bin/bash`가 없다고 하네요.
 
-  
+​     
 
 복사를 해줄게요.
 
@@ -34,7 +34,7 @@ root 디렉토리를 새로운 경로(NEWROOT)로 지정하는거라고 하네�
 
 `cp /bin/bash ./new_root/bin/`{{execute}}
 
-
+​     
 
 디렉토리 구조를 한 번 볼까요?
 
@@ -42,13 +42,13 @@ root 디렉토리를 새로운 경로(NEWROOT)로 지정하는거라고 하네�
 
 bin 디렉토리에 bash 파일이 보이네요.
 
-  
+​     
 
 이제 다시한번 `chroot`를 실행해볼까요?
 
 `chroot ./new_root /bin/bash`{{execute}}
 
-
+​     
 
 역시 아직 안되네요... ( Ĭ ^ Ĭ )  
 
@@ -56,9 +56,13 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 `ldd` 명령어(List Dynamic Dependencies) 를 이용해서 필요한 라이브러리를 알아보고 추가로 복사를 해줄게요.
 
+​     
+
 먼저 뭐가 필요한지 보구요.
 
 `ldd /bin/bash`{{execute}}
+
+​     
 
 그리고, 복사를 해줍니다.
 
@@ -72,7 +76,7 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 `cp /lib64/ld-linux-x86-64.so.2 ./new_root/lib64`{{execute}}  
 
-  
+​     
 
 디렉토리 구조 다시한번 보구요.
 
@@ -90,11 +94,11 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 `chroot ./new_root /bin/bash`{{execute}}
 
-
+​     
 
 ꒰( ˵¯͒ꇴ¯͒˵ )꒱ 드디어 성공입니다.
 
-
+​     
 
 `pwd`{{execute}} 도 해보시구요, `/bin/bash --version`{{execute}} 도 해보세요.
 
