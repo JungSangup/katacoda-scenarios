@@ -10,7 +10,7 @@
 
 아래 명령어는 이미지를 만드는(build) 명령어 입니다.
 
-`docker build -t docker-101 .`{{execute}}
+`docker build --tag docker-101 .`{{execute}}
 
 ​     
 
@@ -33,5 +33,3 @@
 ​     
 
 ![docker_images](./assets/docker_images.png)
-
-

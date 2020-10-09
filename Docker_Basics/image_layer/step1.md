@@ -4,7 +4,7 @@
 
 먼저 현재 있는 컨테이너 이미지를 모두 삭제하겠습니다.
 
-`docker rmi -f $(docker images -aq)`{{execute}}
+`docker rmi --force $(docker images -aq)`{{execute}}
 
 ​     
 
@@ -106,4 +106,4 @@ nginx 이미지를 하나 pull 하구요.
 
 다음 실습을 위해서 blue는 삭제할게요.
 
-`docker rm -f $(docker ps --filter "label=color=blue" -q)`{{execute}}
+`docker rm --force $(docker ps --filter "label=color=blue" --quiet)`{{execute}}

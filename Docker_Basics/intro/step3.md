@@ -8,7 +8,7 @@
 
 실행하는 명령어는 다음과 같습니다.
 
-`docker run -dp 3000:3000 docker-101`{{execute}}
+`docker run --detach --publish 3000:3000 docker-101`{{execute}}
 
 ​      
 

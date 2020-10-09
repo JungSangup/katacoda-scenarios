@@ -100,4 +100,5 @@ cp /lib64/ld-linux-x86-64.so.2 ./new_root/lib64
 
 `pwd`{{execute}} 도 해보시구요, `/bin/bash --version`{{execute}} 도 해보세요.
 
-`ls -al`
+아래 명령어는 될까요? 안될까요?  ʅ（´◔౪◔）ʃ
+`ls -al`{{execute}}
