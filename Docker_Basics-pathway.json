@@ -2,22 +2,27 @@
   "title": "Docker Basics",
   "description": "Docker 기초실습",
   "icon": "",
-  "courses": 
+  "courses":
   [
 	{
       "course_id": "intro",
       "title": "Intro",
       "description": "Docker 맛보기"
-    },
+  },
 	{
       "course_id": "chroot",
       "title": "chroot 실습",
       "description": "chroot 명령어 활용 실습"
-    },
+  },
 	{
       "course_id": "image_layer",
       "title": "Image layer 실습",
       "description": "컨테이너 이미지와 Layer에 대한 실습"
-    }
+  },
+	{
+      "course_id": "command",
+      "title": "Docker commands & Registry 실습",
+      "description": "도커 명령어와 레지스트리 사용 실습"
+  }
   ]
 }
