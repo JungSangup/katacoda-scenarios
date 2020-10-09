@@ -10,8 +10,7 @@ tag > push
 ```
 docker rm -f $(docker ps -aq)
 docker rmi -f $(docker images -aq)
-```
-{{execute}}
+```{{execute}}
 
 참고로 -f 옵션은 강제로 삭제를 하는 옵션이니 주의해서 사용해야 합니다.
 
