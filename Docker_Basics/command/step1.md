@@ -7,8 +7,12 @@ tag > push
 
 
 먼저 현재 컨테이너와 이미지를 모두 정리하고 시작할게요.
-`docker rm -f $(docker ps -aq)`{{execute}}
-`docker rmi -f $(docker images -aq)`{{execute}}
+```
+docker rm -f $(docker ps -aq)
+docker rmi -f $(docker images -aq)
+```
+{{execute}}
+
 참고로 -f 옵션은 강제로 삭제를 하는 옵션이니 주의해서 사용해야 합니다.
 
 도커이미지를 검색하는 명령어는 `docker search`입니다.
