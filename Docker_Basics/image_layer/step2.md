@@ -12,7 +12,7 @@
 
 잘 살아있으면, 다음 명령으로 새로운 이미지를 만들어 보겠습니다.
 
-`docker commit $(docker ps --filter "label=color=red" -q) nginx:my-tag`{{execute}}
+`docker commit $(docker ps --filter "label=color=red" --quiet) nginx:my-tag`{{execute}}
 
 뭔가 복잡해 보이지만 별거 아닙니다.
 
