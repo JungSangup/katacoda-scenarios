@@ -66,15 +66,13 @@ bin 디렉토리에 bash 파일이 보이네요.
 
 그리고, 복사를 해줍니다.
 
-`mkdir -p ./new_root/lib/x86_64-linux-gnu/ ./new_root/lib64`{{execute}}
-
-`cp /lib/x86_64-linux-gnu/libtinfo.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
-
-`cp /lib/x86_64-linux-gnu/libdl.so.2 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
-
-`cp /lib/x86_64-linux-gnu/libc.so.6 ./new_root/lib/x86_64-linux-gnu/`{{execute}}
-
-`cp /lib64/ld-linux-x86-64.so.2 ./new_root/lib64`{{execute}}  
+```
+mkdir -p ./new_root/lib/x86_64-linux-gnu/ ./new_root/lib64
+cp /lib/x86_64-linux-gnu/libtinfo.so.6 ./new_root/lib/x86_64-linux-gnu/
+cp /lib/x86_64-linux-gnu/libdl.so.2 ./new_root/lib/x86_64-linux-gnu/
+cp /lib/x86_64-linux-gnu/libc.so.6 ./new_root/lib/x86_64-linux-gnu/
+cp /lib64/ld-linux-x86-64.so.2 ./new_root/lib64
+```{{execute}}  
 
 ​     
 
@@ -103,6 +101,3 @@ bin 디렉토리에 bash 파일이 보이네요.
 `pwd`{{execute}} 도 해보시구요, `/bin/bash --version`{{execute}} 도 해보세요.
 
 `ls -al`
-
-
-
