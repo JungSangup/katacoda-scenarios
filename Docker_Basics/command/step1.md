@@ -1,14 +1,12 @@
 자주 사용되는 도커 명령어를 알아보겠습니다.
 
-​     
-
-pull > images > run (-it, -d) > ps > exec > stop > restart > rm > rmi
-
-
+​
 
 먼저 현재 컨테이너와 이미지를 모두 정리하고 시작할게요.
-`docker rm --force $(docker ps -aq)`{{execute}}
-`docker rmi --force $(docker images -aq)`{{execute}}
+```
+docker rm --force $(docker ps --all --quiet)
+docker rmi --force $(docker images --all --quiet)
+```{{execute}}
 
 참고로 --force(-f) 옵션은 강제로 삭제를 하는 옵션이니 주의해서 사용해야 합니다.
 
@@ -48,13 +46,15 @@ tag를 명시하지 않은 경우는 default tag인 `latest`를 받아오네요.
 둘의 차이를 찾으셨나요?   ಠ_ಠ
 
 https://hub.docker.com/_/ubuntu?tab=description 를 보시면, 어떤 tag가 latest인지 알 수 있습니다.
+`exit`{{execute}} 명령어로 컨테이너에서 나와주세요.
+
 
 이번엔 다른 방법으로 실행해 보겠습니다.
 `docker run --detach --name my-nginx --publish 8080:80 nginx`{{execute}}
 아까 `--interactive` 옵션을 적용했을때와는 달리, 프롬프트가 그대로 있네요.
 
 `docker ps --all`{{execute}} 명령어로 컨테이너 목록을 조회해보세요.
-아까 실행했던 ubuntu와 nginx가 보일거예요.
+아까 실행했던 ubuntu와 nginx가 보일거예요.  
 ubuntu는 Exited 상태이고, nginx는 Running 상태 입니다.
 
 nginx가 정말 Running 상태인지 `Display 8080`탭을 눌러서 확인도 해보세요.
