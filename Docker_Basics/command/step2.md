@@ -1,6 +1,7 @@
 도커 레지스트리에 대해 알아보고, 우리가 만든 애플리케이션을 등록해 보겠습니다.
 
-먼저 https://hub.docker.com/ 에서 Repository를 하나 생성합니다.
+먼저 https://hub.docker.com/ 에서 Repository를 하나 생성합니다.  
+이름은 `101-todo-app` 으로 할게요.
 
 <img src="./assets/create_repository.png" alt="Create repository" style="zoom:50%;" />
 
@@ -8,11 +9,11 @@
 샘플 애플리케이션 이미지를 다시 만들어 볼까요?
 첫 번째 실습(Intro)을 떠올려보세요.
 
-`git clone https://github.com/JungSangup/todo_list_manager.git app`{{execute}}
-`cd app`{{execute}}
-`docker build --tag docker-101 .`{{execute}}
+`git clone https://github.com/JungSangup/todo_list_manager.git app`{{execute}}  
+`cd app`{{execute}}  
+`docker build --tag docker-101 .`{{execute}}  
 
-`docker images`{{execute}} 명령어로 이미지가 만들어졌는지 확인해보세요.
+`docker images docker-101`{{execute}} 명령어로 이미지가 만들어졌는지 확인해보세요.
 
 이제 우리가 만든 이미지를 우리의 Docker repository에 업로드(push)해 보겠습니다.
 
@@ -27,8 +28,8 @@
 `docker tag docker-101 [USER-NAME]/101-todo-app:1.0.0`{{copy}}
 > [USER-NAME] 에는 여러분의 정보로 채워넣어 주세요. tag는 1.0.0으로 해보겠습니다.
 
-이제 다시 로컬 registry의 image를 조회해보면,
-`docker images`{{execute}}
+이제 다시 로컬 registry의 image를 조회해보면,  
+`docker images`{{execute}}  
 
 준비가 됐습니다.
 
@@ -39,7 +40,7 @@
 https://hub.docker.com/ 에 방금 push한 이미지가 잘 올라가 있나요?
 
 축하합니다.  (๑˃̵ᴗ˂̵)و
-
+     
 이제 여러분이 만든 도커 이미지를 저장할 수 있는 공간이 생겼습니다.
 언제 어디서든 방금 올려두신 이미지를 이용해서 여러분의 샘플 애플리케이션을 실행해보실 수 있게 됐습니다.
 
