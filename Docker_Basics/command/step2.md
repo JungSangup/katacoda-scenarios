@@ -30,17 +30,18 @@
 
 이제 다시 로컬 registry의 image를 조회해보면,  
 `docker images`{{execute}}  
-
 준비가 됐습니다.
 
-이제, 아래 명령어로 docker hub의 우리 repository에 업로드(push) 해볼까요?
+먼저 로그인을 하구요,
+`docker login -u [USER-NAME]`{{copy}}  
 
+아래 명령어로 docker hub의 우리 repository에 업로드(push) 해볼까요?
 `docker push [USER-NAME]/101-todo-app:1.0.0`{{copy}}
 
 https://hub.docker.com/ 에 방금 push한 이미지가 잘 올라가 있나요?
 
 축하합니다.  (๑˃̵ᴗ˂̵)و
-     
+
 이제 여러분이 만든 도커 이미지를 저장할 수 있는 공간이 생겼습니다.
 언제 어디서든 방금 올려두신 이미지를 이용해서 여러분의 샘플 애플리케이션을 실행해보실 수 있게 됐습니다.
 
