@@ -6,12 +6,8 @@
   "details": {
     "steps": [
 		{
-		  "title": "Docker commands",
+		  "title": "Docker network",
 		  "text": "step1.md"
-		},
-		{
-		  "title": "Docker registry",
-		  "text": "step2.md"
 		}
 	],
     "intro": {
@@ -25,7 +21,7 @@
   "environment": {
     "uilayout": "terminal",
     "showdashboard": true,
-    "dashboards": [{"name": "Display 8080", "port": 8080}]
+    "dashboards": [{"name": "Display 3000", "port": 3000}]
   },
   "backend": {
     "imageid": "ubuntu:2004"

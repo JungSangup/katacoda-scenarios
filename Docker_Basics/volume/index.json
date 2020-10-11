@@ -6,11 +6,11 @@
   "details": {
     "steps": [
 		{
-		  "title": "Docker commands",
+		  "title": "Docker volume",
 		  "text": "step1.md"
 		},
 		{
-		  "title": "Docker registry",
+		  "title": "Docker volume",
 		  "text": "step2.md"
 		}
 	],
