@@ -9,7 +9,7 @@ docker run -d \
     --volume todo-mysql-data:/var/lib/mysql \
     --env MYSQL_ROOT_PASSWORD=secret \
     --env MYSQL_DATABASE=todos \
-    --name my-mysql
+    --name my-mysql \
     mysql:5.7
 ```{{execute}}
 
@@ -27,7 +27,7 @@ docker run -dp 3000:3000 \
   --env MYSQL_USER=root \
   --env MYSQL_PASSWORD=secret \
   --env MYSQL_DB=todos \
-  --name my-todo-manager
+  --name my-todo-manager \
   rogallo/101-todo-app:1.0.0
 ```{{ececute}}
 
