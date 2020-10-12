@@ -5,9 +5,9 @@
   "courses":
   [
 	{
-      "course_id": "intro",
-      "title": "Intro",
-      "description": "Kubernetes..."
+      "course_id": "test",
+      "title": "test ",
+      "description": "test"
   }
   ]
 }
