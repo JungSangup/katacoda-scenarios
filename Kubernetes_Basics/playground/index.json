@@ -1,12 +1,12 @@
 {
-  "title": "test",
-  "description": "test",
+  "title": "Kubernetes playground",
+  "description": "Kubernetes playground",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
 		{
-		  "title": "test",
+		  "title": "Kubernetes playground",
 		  "text": "step1.md"
 		}
 	],

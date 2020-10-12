@@ -1,4 +1,0 @@
-test
-
-
-`launch.sh`{{execute}}
