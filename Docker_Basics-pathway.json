@@ -33,6 +33,11 @@
       "course_id": "network",
       "title": "Docker Network",
       "description": "도커 네트워킹"
+  },
+	{
+      "course_id": "playground",
+      "title": "٩(ˊᗜˋ*)و Docker playground",
+      "description": "Docker playground"
   }
   ]
 }
