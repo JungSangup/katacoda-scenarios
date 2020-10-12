@@ -1,0 +1,13 @@
+{
+  "title": "Kubernetes Basics",
+  "description": "Kubernetes 기초실습",
+  "icon": "",
+  "courses":
+  [
+	{
+      "course_id": "intro",
+      "title": "Intro",
+      "description": "Kubernetes..."
+  }
+  ]
+}
