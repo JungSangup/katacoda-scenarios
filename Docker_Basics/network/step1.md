@@ -3,6 +3,7 @@
 먼저 `docker network create`명령으로 bridge network을 하나 생성하겠습니다.  
 `docker network create todo-app`{{execute}}
 
+
 그리고, 생성한 네트워크를 이용해서 `mysql`을 실행합니다.
 ```
 docker run -d \
