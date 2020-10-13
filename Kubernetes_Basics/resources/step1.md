@@ -6,9 +6,9 @@
 
 `kubectl cluster-info`{{execute}}
 
-`kubectl get nodes -`{{execute}}
+`kubectl get nodes`{{execute}}
 
-`kubectl get ndoes --output wide`{{execute}}
+`kubectl get nodes --output wide`{{execute}}
 
 `kubectl explain pod`{{execute}}
 

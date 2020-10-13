@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    run: my-nginx2
+    tier: frontend
   name: my-nginx2
 spec:
   containers:
