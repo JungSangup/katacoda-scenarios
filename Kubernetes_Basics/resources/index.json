@@ -28,7 +28,7 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
     "assets": {
           "host01": [
               {"file": "nginx2-pod.yaml", "target": "~/lab"},
