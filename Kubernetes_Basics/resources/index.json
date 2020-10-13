@@ -1,0 +1,39 @@
+{
+  "title": "Kubernetes Commands & Resources",
+  "description": "Kubernetes Commands & Resources",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+		{
+		  "title": "Kubernetes Commands",
+		  "text": "step1.md"
+		},
+    {
+		  "title": "POD",
+		  "text": "step2.md"
+		},
+    {
+		  "title": "Deployment, ReplicaSet",
+		  "text": "step3.md"
+		},
+    {
+		  "title": "Service",
+		  "text": "step4.md"
+		}
+	],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}

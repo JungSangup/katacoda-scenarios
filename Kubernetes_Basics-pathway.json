@@ -4,7 +4,12 @@
   "icon": "",
   "courses":
   [
-	{
+    {
+        "course_id": "resources",
+        "title": "Commands & Resources",
+        "description": "쿠버네티스 명령어와 리소스"
+    },
+  	{
       "course_id": "playground",
       "title": "٩(ˊᗜˋ*)و Kubernetes playground ",
       "description": "Kubernetes playground"
