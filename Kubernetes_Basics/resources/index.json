@@ -38,7 +38,7 @@
               {"file": "nginx-clusterip-service.yaml", "target": "~/lab"},
               {"file": "nginx-nodeport-service.yaml", "target": "~/lab"},
               {"file": "nginx-loadbalancer-service.yaml", "target": "~/lab"},
-              {"file": "cloudprovider.yaml", "target": "~/lab"}		  
+              {"file": "cloudprovider.yaml", "target": "~/lab"}
           ]
       }
   },
@@ -46,6 +46,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster-running:1.18"
+    "imageid": "kubernetes-cluster-running:1.14"
   }
 }
