@@ -37,7 +37,8 @@
               {"file": "nginx-deployment.yaml", "target": "~/lab"},
               {"file": "nginx-clusterip-service.yaml", "target": "~/lab"},
               {"file": "nginx-nodeport-service.yaml", "target": "~/lab"},
-              {"file": "nginx-loadbalancer-service.yaml", "target": "~/lab"}
+              {"file": "nginx-loadbalancer-service.yaml", "target": "~/lab"},
+              {"file": "cloudprovider.yaml", "target": "~/lab"}		  
           ]
       }
   },
