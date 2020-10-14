@@ -1,10 +1,8 @@
 자주 사용되는 도커 명령어를 알아보겠습니다.
 
 ​
-
 먼저 현재 컨테이너와 이미지를 모두 정리하고 시작할게요.
 ```
-docker rm --force $(docker ps --all --quiet)
 docker rmi --force $(docker images --all --quiet)
 ```{{execute}}
 

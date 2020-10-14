@@ -28,7 +28,8 @@
 이전 같으면 방금 저장한 할 일이 모두 사라지고 없겠죠?
 
 이제 다시한번 같은 명령어로 실행해 볼까요?
-`docker run --detach --publish 3000:3000 --volume todo-db:/etc/todos --name my-todo-manager rogallo/101-todo-app:1.0.0`{{execute}
+`docker run --detach --publish 3000:3000 --volume todo-db:/etc/todos --name my-todo-manager rogallo/101-todo-app:1.0.0`{{copy}}  
+여러분은 여러분의 이미지를 도커허브에서 받아와서 실행해보세요 ( rogallo -> 여러분의 계정 )
 
 어떤가요?
 오늘 할 일 목록이 그대로 남아있나요?

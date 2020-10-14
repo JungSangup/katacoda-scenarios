@@ -10,7 +10,9 @@
 첫 번째 실습(Intro)을 떠올려보세요.
 
 `git clone https://github.com/JungSangup/todo_list_manager.git app`{{execute}}  
+
 `cd app`{{execute}}  
+
 `docker build --tag docker-101 .`{{execute}}  
 
 `docker images docker-101`{{execute}} 명령어로 이미지가 만들어졌는지 확인해보세요.
