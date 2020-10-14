@@ -16,11 +16,19 @@ recreate
 
 `kubectl apply -f nginx-recreate.yaml`{{execute T1}}
 
+
 `kubectl describe pod [POD-NAME]`
 
 
 `kubectl rollout history deployment nginx-deployment`{{execute T1}}
 
+`kubectl rollout history deployment nginx-deployment --revision=1`{{execute T1}}
+
+`kubectl rollout history deployment nginx-deployment --revision=2`{{execute T1}}
+
+`kubectl get pods --watch`{{execute T2}}
+
+`kubectl rollout undo deployment nginx-deployment --to-revision=1`{{execute T1}}
 
 `kubectl delete -f nginx-recreate.yaml`{{execute T1}}
 
@@ -47,5 +55,11 @@ rollingupdate
 `kubectl describe pod [POD-NAME]`
 
 `kubectl rollout history deployment nginx-deployment`{{execute T1}}
+
+
+`kubectl get pods --watch`{{execute T2}}
+
+
+`kubectl rollout undo deployment nginx-deployment --to-revision=1`{{execute T1}}
 
 `kubectl delete -f nginx-recreate.yaml`{{execute T1}}
