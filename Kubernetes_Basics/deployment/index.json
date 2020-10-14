@@ -16,6 +16,12 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+          "host01": [
+              {"file": "nginx-recreate.yaml", "target": "~/lab"},
+              {"file": "nginx-rollingupdate.yaml", "target": "~/lab"}
+          ]
     }
   },
   "environment": {

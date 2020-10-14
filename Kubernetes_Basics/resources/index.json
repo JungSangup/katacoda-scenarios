@@ -40,7 +40,7 @@
               {"file": "nginx-loadbalancer-service.yaml", "target": "~/lab"},
               {"file": "cloudprovider.yaml", "target": "~/lab"}
           ]
-      }
+    }
   },
   "environment": {
     "uilayout": "terminal"

@@ -13,7 +13,7 @@ https://github.com/JungSangup/katacoda-scenarios/blob/master/Kubernetes_Basics/r
 
 `kubectl get replicasets -o wide`{{execute}}
 
-`kubectl describe replicasets frontend`{{execute}}
+`kubectl describe replicasets nginx-replicaset`{{execute}}
 
 `kubectl get pods --show-labels`{{execute}}
 
@@ -23,6 +23,7 @@ https://github.com/JungSangup/katacoda-scenarios/blob/master/Kubernetes_Basics/r
 
 
 Deployment
+`cat nginx-deployment.yaml`{{execute}}
 
 `kubectl apply -f nginx-deployment.yaml`{{execute}}
 
@@ -30,6 +31,7 @@ Deployment
 
 `kubectl get po --show-labels`{{execute}}
 
+`kubectl delete po xxx`
 
 scale 방법 세가지
 `kubectl scale deployment nginx-deployment --replicas=5`{{execute}}
@@ -38,5 +40,9 @@ scale 방법 세가지
 
 `kubectl edit deployment nginx-deployment`{{execute}}
 
+`kubectl get all`{{execute}}
+
 yaml 파일 수정 후
+`vi nginx-deployment.yaml`{{execute}}
+
 `kubectl apply -f nginx-deployment.yaml`{{execute}}

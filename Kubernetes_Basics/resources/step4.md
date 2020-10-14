@@ -1,4 +1,5 @@
 
+`cd /root/lab`{{execute}}
 
 `kubectl get pods -o wide`{{execute}}
 
@@ -10,6 +11,7 @@
 
 
 clusterip
+`cat nginx-clusterip-service.yaml`{{execute}}
 
 `kubectl apply -f nginx-clusterip-service.yaml`{{execute}}
 
@@ -29,6 +31,7 @@ clusterip
 
 nodePort
 
+`cat nginx-nodeport-service.yaml`{{execute}}
 
 `kubectl apply -f nginx-nodeport-service.yaml`{{execute}}
 
@@ -48,7 +51,7 @@ loadbalancer
 
 `kubectl get services`{{execute}}
 
-`export LoadBalancerIP=$(kubectl get services/webapp1-loadbalancer-svc -o go-template='{{(index .status.loadBalancer.ingress 0).ip}}')`{{execute}}
+`export LoadBalancerIP=$(kubectl get services/nginx-loadbalancer-service -o go-template='{{(index .status.loadBalancer.ingress 0).ip}}')`{{execute}}
 
 `echo LoadBalancerIP=$LoadBalancerIP`{{execute}}
 
