@@ -6,5 +6,7 @@ metadata:
   name: my-nginx
 spec:
   containers:
-  - image: nginx3
+  - image: nginx3:1.19.3
     name: my-nginx3
+    ports:
+    - containerPort: 80
