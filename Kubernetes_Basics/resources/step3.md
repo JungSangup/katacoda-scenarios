@@ -1,7 +1,7 @@
 
 
 
-
+`cd /root/lab`{{execute}}
 
 ReplicaSet
 

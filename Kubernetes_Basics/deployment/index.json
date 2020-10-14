@@ -1,0 +1,27 @@
+{
+  "title": "Kubernetes Deployment Strategy",
+  "description": "Kubernetes Deployment Strategy",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+		{
+		  "title": "Kubernetes Deployment Strategy",
+		  "text": "step1.md"
+		}
+	],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
