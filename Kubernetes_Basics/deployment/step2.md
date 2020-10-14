@@ -32,7 +32,7 @@ rollingupdate
 
 
 
-`kubectl describe pod [POD-NAME]`
+`kubectl describe pod [POD-NAME] | grep -i image`
 
 `kubectl rollout history deployment nginx-deployment`{{execute T1}}
 
@@ -41,5 +41,7 @@ rollingupdate
 
 
 `kubectl rollout undo deployment nginx-deployment --to-revision=1`{{execute T1}}
+
+`kubectl describe pod [POD-NAME] | grep -i image`
 
 `kubectl delete -f nginx-recreate.yaml`{{execute T1}}

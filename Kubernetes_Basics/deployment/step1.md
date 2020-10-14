@@ -21,7 +21,7 @@ recreate
 
 `kubectl describe deployment nginx-deployment | grep -i image`{{execute T1}}
 
-`kubectl describe pod [POD-NAME]`
+`kubectl describe pod [POD-NAME] | grep -i image`
 
 
 `kubectl rollout history deployment nginx-deployment`{{execute T1}}
@@ -33,5 +33,8 @@ recreate
 `kubectl get pods --watch`{{execute T2}}
 
 `kubectl rollout undo deployment nginx-deployment --to-revision=1`{{execute T1}}
+
+
+`kubectl describe pod [POD-NAME] | grep -i image`
 
 `kubectl delete -f nginx-recreate.yaml`{{execute T1}}
