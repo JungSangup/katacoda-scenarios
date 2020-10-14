@@ -18,6 +18,7 @@ nodePort
 `kubectl get services`{{execute}}
 
 
+`kubectl apply -f cloudprovider.yaml`{{execute}}
 
 
 `kubectl apply -f nginx-loadbalancer-service.yaml`{{execute}}
