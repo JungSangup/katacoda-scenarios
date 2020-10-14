@@ -42,7 +42,9 @@ docker run -dp 3000:3000 \
   --env MYSQL_DB=todos \
   --name my-todo-manager \
   rogallo/101-todo-app:1.0.0
-```{{execute}}
+```{{copy}}  
+여러분은 여러분의 이미지를 사용해보세요.
+
 `--network`옵션으로 mysql과 동일한 네트워크로 설정했고, `--env`를 이용해서 mysql 연계에 필요한 환경변수들을 설정해 주었습니다.
 
 우리 애플리케이션의 로그를 한 번 볼까요?  
