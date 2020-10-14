@@ -3,10 +3,10 @@ kind: Pod
 metadata:
   labels:
     tier: frontend
-  name: my-nginx
+  name: my-nginx3
 spec:
   containers:
-  - image: nginx3:1.19.3
+  - image: nginx:1.19.3
     name: my-nginx3
     ports:
     - containerPort: 80
