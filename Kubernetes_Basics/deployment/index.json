@@ -6,8 +6,12 @@
   "details": {
     "steps": [
 		{
-		  "title": "Kubernetes Deployment Strategy",
+		  "title": "Kubernetes Deployment Strategy - Recreate",
 		  "text": "step1.md"
+		},
+    {
+		  "title": "Kubernetes Deployment Strategy - RollingUpdate",
+		  "text": "step2.md"
 		}
 	],
     "intro": {
