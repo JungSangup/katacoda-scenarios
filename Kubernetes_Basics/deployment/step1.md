@@ -12,15 +12,15 @@ recreate
 `kubectl get pods --watch`{{execute T2}}
 
 
-`sed 's/image: nginx:1.18/image: nginx:1.19' nginx-recreate.yaml`{{execute T1}}
+`sed -i 's/image: nginx:1.18/image: nginx:1.19/g' nginx-recreate.yaml`{{execute T1}}
 
+`kubectl apply -f nginx-recreate.yaml`{{execute T1}}
 
 `kubectl describe pod [POD-NAME]`
 
 
 `kubectl rollout history deployment nginx-deployment`{{execute T1}}
 
-`kubectl get pods --watch`{{execute T2}}
 
 `kubectl delete -f nginx-recreate.yaml`{{execute T1}}
 
@@ -41,13 +41,11 @@ rollingupdate
 `kubectl get pods --watch`{{execute T2}}
 
 
-`sed 's/image: nginx:1.18/image: nginx:1.19' nginx-rollingupdate.yaml`{{execute T1}}
+`sed -i 's/image: nginx:1.18/image: nginx:1.19/g' nginx-rollingupdate.yaml`{{execute T1}}
 
 
 `kubectl describe pod [POD-NAME]`
 
 `kubectl rollout history deployment nginx-deployment`{{execute T1}}
-
-`kubectl get pods --watch`{{execute T2}}
 
 `kubectl delete -f nginx-recreate.yaml`{{execute T1}}
