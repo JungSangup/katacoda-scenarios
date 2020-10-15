@@ -11,7 +11,7 @@
     },
   	{
         "course_id": "deployment",
-        "title": "Kubernetes Deployment Strategy",
+        "title": "Kubernetes Deployment Strategies",
         "description": "쿠버네티스의 배포/업데이트 방법"
     },
   	{
