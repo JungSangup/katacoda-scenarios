@@ -1,1 +1,1 @@
-# Kubernetes Deployment Strategy
+# Kubernetes Deployment Strategies
