@@ -19,6 +19,11 @@
         "title": "Horizontal Pod Autoscaler",
         "description": "Horizontal Pod Autoscaler"
     },
+    {
+        "course_id": "helm",
+        "title": "Helm - The package manager for Kubernetes",
+        "description": "Helm - The package manager for Kubernetes"
+    },
   	{
       "course_id": "playground",
       "title": "٩(ˊᗜˋ*)و Kubernetes playground ",
