@@ -19,7 +19,7 @@
     },
     "assets": {
           "host01": [
-            {"file": "components.yaml", "target": "~/lab"}
+            {"file": "components.yaml", "target": "~/lab"},
             {"file": "aggregated-metrics-reader.yaml", "target": "~/lab/metrics-server"},
             {"file": "auth-delegator.yaml", "target": "~/lab/metrics-server"},
             {"file": "auth-reader.yaml", "target": "~/lab/metrics-server"},
