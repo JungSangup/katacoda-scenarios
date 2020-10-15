@@ -19,7 +19,15 @@
     },
     "assets": {
           "host01": [
-              {"file": "components.yaml", "target": "~/lab"}
+            {"file": "components.yaml", "target": "~/lab"}
+            {"file": "aggregated-metrics-reader.yaml", "target": "~/lab/metrics-server"},
+            {"file": "auth-delegator.yaml", "target": "~/lab/metrics-server"},
+            {"file": "auth-reader.yaml", "target": "~/lab/metrics-server"},
+            {"file": "metrics-apiservice.yaml", "target": "~/lab/metrics-server"},
+            {"file": "metrics-server-deployment.yaml", "target": "~/lab/metrics-server"},
+            {"file": "metrics-server-pdb.yaml", "target": "~/lab/metrics-server"},
+            {"file": "metrics-server-service.yaml", "target": "~/lab/metrics-server"},
+            {"file": "resource-reader.yaml", "target": "~/lab/metrics-server"}
           ]
     }
   },
