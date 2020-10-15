@@ -4,6 +4,7 @@
 
 `kubectl apply -f /root/lab/metrics-server/.`{{execute T1}}
 
+`kubectl top node`{{execute T1}}
 
 
 `kubectl apply -f https://k8s.io/examples/application/php-apache.yaml`{{execute T1}}
