@@ -1,16 +1,16 @@
 {
-  "title": "Kubernetes Deployment Strategy",
-  "description": "Kubernetes Deployment Strategy",
+  "title": "Kubernetes Deployment Strategies",
+  "description": "Kubernetes Deployment Strategies",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
 		{
-		  "title": "Kubernetes Deployment Strategy - Recreate",
+		  "title": "Kubernetes Deployment Strategies - Recreate",
 		  "text": "step1.md"
 		},
-    {
-		  "title": "Kubernetes Deployment Strategy - RollingUpdate",
+		{
+		  "title": "Kubernetes Deployment Strategies - RollingUpdate",
 		  "text": "step2.md"
 		}
 	],
