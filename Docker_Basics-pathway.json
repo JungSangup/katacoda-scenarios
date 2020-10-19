@@ -9,6 +9,11 @@
       "title": "Intro",
       "description": "Docker 맛보기"
   },
+  {
+      "course_id": "install",
+      "title": "Install docker",
+      "description": "Docker 환경구성 (Install docker)"
+  },
 	{
       "course_id": "chroot",
       "title": "chroot",
