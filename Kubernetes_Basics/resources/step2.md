@@ -31,6 +31,9 @@
 참고하세요.  
 https://kubernetes.io/ko/docs/concepts/overview/working-with-objects/object-management/
 
+그리고, 선언형 관리에 대해 좀 더 자세히 알아보려면 아래 링크를 참조하세요.  
+https://kubernetes.io/ko/docs/tasks/manage-kubernetes-objects/declarative-config/
+
 선언형(Declarative) 이라는 말을 잘 기억해두세요.  
 그리고 `kubectl apply ~` 명령어도 많이 쓰이니, 잘 기억해 두시구요.  
 
