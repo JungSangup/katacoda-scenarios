@@ -38,4 +38,4 @@ Docker engine 설치
 설치확인  
 `sudo docker run hello-world`{{execute}}
 
-- 끝 -
+- 끝 -   (ง˙∇˙)ว
