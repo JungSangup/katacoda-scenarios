@@ -2,7 +2,7 @@
 
 
 기존 설치된 패키지 삭제  
-`sudo apt-get remove docker docker-engine docker.io containerd runc`{{execute}}
+`sudo apt-get -y remove docker docker-engine docker.io containerd runc`{{execute}}
 
 
 ### Install using the repository
@@ -32,8 +32,9 @@ sudo add-apt-repository \
 ```{{execute}}
 
 Docker engine 설치   
-`sudo apt-get update`{{execute}}
-`sudo apt-get install docker-ce docker-ce-cli containerd.io`{{execute}}
+`sudo apt-get update`{{execute}}  
+
+`sudo apt-get -y install docker-ce docker-ce-cli containerd.io`{{execute}}
 
 설치확인  
 `sudo docker run hello-world`{{execute}}
