@@ -31,9 +31,7 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 ```{{execute}}
-
-준비과정이 길었네요...  
-이제 Docker engine 설치   
+   
 준비과정이 길었네요...  
 이제 진짜 Docker engine 설치 입니다.    
 `sudo apt-get update`{{execute}}  
