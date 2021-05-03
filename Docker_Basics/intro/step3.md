@@ -20,7 +20,7 @@
 ![docker_ps](./assets/docker_ps.png)
 
 ​      
-이제 `Terminal`의 `Display 3000` 탭을 눌러보세요.
+이제 `Terminal` 의 `Display 3000` 탭을 눌러보세요.
 
 3000번 포트를 통해서 우리의 샘플 애플리케이션에 접속합니다.
 
