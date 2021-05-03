@@ -43,3 +43,6 @@ sudo add-apt-repository \
 
 --- 끝 ---   
 (ง˙∇˙)ว
+
+
+더 자세한 내용은 https://docs.docker.com/engine/install/ubuntu/ 를 참조하세요.
