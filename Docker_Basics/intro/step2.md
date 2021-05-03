@@ -6,7 +6,7 @@
 우선 따라와보세요.
 
 ​     
-아래 명령어는 이미지를 만드는(build) 명령어 입니다.
+아래 명령어는 도커 이미지를 만드는(build) 명령어 입니다.
 
 `docker build --tag docker-101 .`{{execute}}
 
