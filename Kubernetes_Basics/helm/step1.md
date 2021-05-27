@@ -38,7 +38,7 @@ Release의 목록은 다음 명령으로 조회할 수 있구요.
 
 
 chart를 다운로드(pull)도 해볼게요.  
-`helm pull bitnami/wordpress --version=11.0.11`{{execute}}
+`helm pull bitnami/wordpress --version 11.0.11`{{execute}}
 
 tar로 받아지네요.  
 압축도 풀어볼까요?  
