@@ -42,7 +42,7 @@ chart를 다운로드(pull)도 해볼게요.
 
 tar로 받아지네요.  
 압축도 풀어볼까요?  
-`tar -xvf wordpress-9.6.9.tgz`{{execute}}
+`tar -xvf wordpress-11.0.11.tgz`{{execute}}
 
 어떤 파일들이 있는지 한 번 살펴보겠습니다.  
 `cd wordpress`{{execute}}
