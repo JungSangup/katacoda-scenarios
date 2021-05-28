@@ -45,4 +45,4 @@ deployment에 잘 반영이 됐나요?
 
 `kubectl describe pod [POD-NAME] | grep -i image`
 
-`kubectl delete -f nginx-recreate.yaml`{{execute T1}}
+`kubectl delete -f nginx-rollingupdate.yaml`{{execute T1}}
