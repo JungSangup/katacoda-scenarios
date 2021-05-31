@@ -22,10 +22,7 @@
       "text": "intro.md",
       "credits": ""
     },
-    "finish": {
-      "text": "finish.md"
-    },
-	"assets": {
+    "assets": {
         "host01": [
             {"file": "app.zip", "target": "~/"}
         ]
