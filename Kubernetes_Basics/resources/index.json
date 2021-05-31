@@ -9,15 +9,15 @@
 		  "title": "Kubernetes Commands",
 		  "text": "step1.md"
 		},
-    {
+		{
 		  "title": "POD",
 		  "text": "step2.md"
 		},
-    {
+		{
 		  "title": "Deployment, ReplicaSet",
 		  "text": "step3.md"
 		},
-    {
+		{
 		  "title": "Service",
 		  "text": "step4.md"
 		}
@@ -25,9 +25,6 @@
     "intro": {
       "text": "intro.md",
       "credits": ""
-    },
-    "finish": {
-      "text": "finish.md"
     },
     "assets": {
           "host01": [
