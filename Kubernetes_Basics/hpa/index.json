@@ -14,9 +14,6 @@
       "text": "intro.md",
       "credits": ""
     },
-    "finish": {
-      "text": "finish.md"
-    },
     "assets": {
           "host01": [
             {"file": "components.yaml", "target": "~/lab"},
